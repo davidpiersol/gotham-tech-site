@@ -1,0 +1,72 @@
+/* Proposed shared system. Disable this sheet with the comparison control. */
+:root {
+  --font-hero: clamp(2.625rem, 2.036rem + 2.619vw, 4rem);
+  --font-section: clamp(2.125rem, 1.857rem + 1.190vw, 2.75rem);
+  --font-service: clamp(1.5rem, 1.393rem + .476vw, 1.75rem);
+  --font-lead: clamp(1.125rem, 1.071rem + .238vw, 1.25rem);
+  --font-body: clamp(1rem, .973rem + .119vw, 1.0625rem);
+  --font-eyebrow: clamp(.75rem, .723rem + .119vw, .8125rem);
+  --font-action: clamp(.9375rem, .911rem + .119vw, 1rem);
+  --s1: .5rem; --s2: 1rem; --s3: 1.5rem;
+  --s4: 2.5rem; --s5: 4rem; --s6: 6rem;
+  --gutter: var(--s3); --section-space: var(--s5);
+}
+body { font-size: var(--font-body); line-height: 1.6; }
+.wrap, .header-inner { width: min(75rem, calc(100% - 2 * var(--gutter))); }
+h1, h2, h3 { font-weight: 500; letter-spacing: -.035em; }
+.hero h1, .intro-grid h1 { font-size: var(--font-hero); line-height: 1.08; max-width: 18ch; }
+h2, .section-heading h2, .vision-copy h2, .callout-row h2 { font-size: var(--font-section); line-height: 1.12; }
+h3, .service-card h2, .service-groups h3, .steps-strip h3 { font-size: var(--font-service); line-height: 1.15; }
+.eyebrow, .hero .eyebrow, .group-label, .step-number, .service-disclosure small, .hero-caption {
+  font-size: var(--font-eyebrow); line-height: 1.4; letter-spacing: .08em; font-weight: 500;
+}
+.eyebrow { margin-bottom: var(--s2); }
+.button, .main-nav>a, .text-link, .service-card .text-link, .menu-toggle, .footer-top nav {
+  font-size: var(--font-action); line-height: 1.4; font-weight: 500;
+}
+.button, .menu-toggle { min-height: 3rem; }
+.text-link { min-height: 2.75rem; padding-block: var(--s1); }
+.text-link:hover { text-decoration: underline; text-underline-offset: .3em; }
+.page-intro { padding-top: var(--section-space); padding-bottom: var(--section-space); }
+.intro-grid { grid-template-columns: 1fr; gap: var(--s4); }
+.intro-copy { max-width: 65ch; }
+.intro-copy p:first-child, .hero-copy p, .service-short { font-size: var(--font-lead); line-height: 1.55; }
+.intro-copy p+p, .service-card p:not(.service-short), .service-card li, .footer-top p, .footer-bottom {
+  font-size: var(--font-body); line-height: 1.6;
+}
+p+p { margin-top: var(--s2); }
+.service-catalog { column-gap: var(--s5); padding-bottom: var(--section-space); }
+.service-card { padding: var(--s4) 0; }
+.service-card-top { margin-bottom: var(--s2); gap: var(--s2); }
+.service-card-top .group-label { letter-spacing: .04em; }
+.service-card h2 { margin-bottom: var(--s3); }
+.service-short { margin-bottom: var(--s2); }
+.service-card ul { margin-block: var(--s3); }
+.service-card li { padding-block: var(--s1); }
+.service-card .outcome { font-weight: 500; margin-bottom: var(--s3); }
+.services-section, .process-section { padding-block: var(--section-space); }
+.section-heading { margin-bottom: var(--s4); gap: var(--s4); }
+.service-groups { gap: var(--s5); }
+.service-groups h3 { margin: var(--s2) 0 var(--s3); }
+.service-disclosure summary { font-size: var(--font-lead); padding-block: var(--s3); }
+.vision-section { padding-block: var(--section-space); }
+.vision-copy h2 { margin-bottom: var(--s3); }
+.steps-strip { gap: var(--s4); }
+.steps-strip h3 { margin: var(--s3) 0 var(--s2); }
+.contact-callout { padding-block: var(--section-space); }
+.callout-row { gap: var(--s4); }
+.callout-row p { margin-bottom: var(--s3); }
+.footer-brand { font-size: var(--font-service); }
+.site-footer { padding-inline: max(var(--gutter), calc((100% - 75rem) / 2)); }
+.hero { padding-top: var(--s5); }
+.hero-heading { gap: var(--s4); margin-bottom: var(--s4); }
+.hero-copy p { margin-bottom: var(--s3); }
+@media (max-width: 359px) { :root { --gutter: var(--s2); } }
+@media (min-width: 768px) { :root { --gutter: var(--s4); } }
+@media (min-width: 1200px) { :root { --section-space: var(--s6); } }
+@media (max-width: 760px) {
+  .hero { padding-top: var(--s4); }
+  .intro-grid { gap: var(--s3); }
+  .service-card { padding-block: var(--s3); }
+  .main-nav { top: 100px; }
+}

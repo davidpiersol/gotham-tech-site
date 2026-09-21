@@ -1,0 +1,8 @@
+.review-bar { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:12px 5%; background:#17191b; color:#fff; font:500 13px/1.4 Roboto,Arial,sans-serif; }
+.review-bar>span { letter-spacing:.08em; }
+.review-bar>div { display:flex; gap:4px; }
+.review-bar button { min-height:44px; padding:8px 16px; border:1px solid #697079; border-radius:6px; background:transparent; color:#fff; }
+.review-bar button[aria-pressed=true] { background:#fff; color:#17191b; }
+.review-bar a { text-decoration:underline; text-underline-offset:4px; }
+.review-bar :focus-visible { outline:3px solid #7dceff; outline-offset:3px; }
+@media(max-width:600px) { .review-bar { flex-wrap:wrap; gap:8px; } .review-bar>span { width:100%; } }
