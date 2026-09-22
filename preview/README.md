@@ -16,6 +16,6 @@ Production application integration still requires locating the source repository
 
 Verified in the local browser: both pages at 320, 390, 768, and 1440px without horizontal overflow or broken images; comparison toggle restores original typography and service CTA text; mobile navigation opens and closes with Escape. Browser console reported no errors.
 
-## Red type exploration
+## Red heading exploration
 
-Branch `codex/ui-red-type-preview` starts from the saved neutral `codex/ui-typography-preview`, without the rejected color palette. All site text styled at emphasis weights (500 and above), including headings, labels, navigation, CTA links, and closing statements, uses red. A lighter red maintains readability on existing dark buttons, footer, and image captions. Body text, backgrounds, spacing, and layout retain the neutral design. Neutral / Red text toggles only this layer.
+Branch `codex/ui-red-type-preview` starts from the saved neutral `codex/ui-typography-preview`, without the rejected color palette. Only page, section, and service headings (H1–H3), including heading spans, are red. Navigation, buttons, eyebrows, service numbers, links, closing statements, and body text retain the neutral design. Neutral / Red headings toggles only this heading-color layer. Backgrounds, typography, spacing, and layout are unchanged.
