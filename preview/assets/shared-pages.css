@@ -1,0 +1,23 @@
+/* Finish the shared type and spacing system on all informational pages. */
+.page-intro h1 {
+  font-size: var(--font-hero);
+  line-height: 1.08;
+  max-width: 18ch;
+}
+.process-steps, .faq-section, .reading-copy {
+  padding-bottom: var(--section-space);
+}
+.process-steps article { gap: var(--s4); padding-block: var(--s4); }
+.process-steps h2, .reading-copy h2 { font-size: var(--font-service); line-height: 1.15; }
+.process-steps p, .faq-list p, .reading-copy p { color: #30343a; }
+.faq-section { gap: var(--s5); }
+.faq-list summary { min-height: 44px; align-items: center; font-size: var(--font-lead); }
+.faq-list details { padding-block: var(--s2); }
+.faq-list p { padding-top: var(--s2); }
+.reading-copy { max-width: 65ch; }
+.reading-copy h2 { margin: var(--s4) 0 var(--s2); }
+.reading-copy h2:first-child { margin-top: 0; }
+.reading-copy a { color: #075bb5; text-decoration: underline; text-underline-offset: .2em; overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+  .process-steps article { gap: var(--s2); padding-block: var(--s3); }
+}
