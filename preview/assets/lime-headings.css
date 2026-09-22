@@ -1,0 +1,5 @@
+/* Lime is limited to the page, section, and service headings. */
+:root { --heading-lime: #83b800; }
+main h1, main h2, main h3, .vision-copy h2 span {
+  color: var(--heading-lime);
+}

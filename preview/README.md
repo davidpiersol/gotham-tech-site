@@ -19,3 +19,7 @@ Verified in the local browser: both pages at 320, 390, 768, and 1440px without h
 ## Brighter blue and hero image
 
 Branch `codex/ui-blue-image-preview` returns to the approved neutral typography design. The existing blue accent changes from #155d87 to #0068aa. The Services introduction pairs its copy with the site's existing abstract-device image on desktop; the image follows the copy on screens up to 900px. The decorative image has empty alt text. Original / Blue + image compares this variation with the approved neutral design. The original typography remains active in both modes. No red text or additional color palette remains.
+
+## Lime headings
+
+Branch `codex/ui-lime-image-preview` keeps the accepted image and brighter blue accents. Only page, section, and service headings (H1–H3, including heading spans) change to lime #83b800. Neutral headings / Lime headings toggles just this heading color; the hero image stays visible in both modes. Navigation, buttons, labels, links, and body copy retain their previous colors. This is a color exploration, not an accessibility-approved production palette.
