@@ -1,5 +1,5 @@
 // Static review only: no production application scripts or submissions.
-const variation = document.querySelector('#blue-image-styles');
+const variation = document.querySelector('#dot-background-styles');
 const controls = document.querySelectorAll('[data-mode]');
 const labels = ['Discuss your website', 'Discuss your brand', 'Discuss your social presence', 'Discuss your web application', 'Discuss your mobile application', 'Discuss your desktop application'];
 const serviceLinks = [...document.querySelectorAll('.service-card .text-link')];

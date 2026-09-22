@@ -19,3 +19,7 @@ Verified in the local browser: both pages at 320, 390, 768, and 1440px without h
 ## Brighter blue and hero image
 
 Branch `codex/ui-blue-image-preview` returns to the approved neutral typography design. The existing blue accent changes from #155d87 to #0068aa. The Services introduction pairs its copy with the site's existing abstract-device image on desktop; the image follows the copy on screens up to 900px. The decorative image has empty alt text. Original / Blue + image compares this variation with the approved neutral design. The original typography remains active in both modes. No red text or additional color palette remains.
+
+## Logo dot background
+
+Branch `codex/ui-dot-background-preview` uses the actual logo image as an oversized, cropped CSS background, isolating the dotted sphere and excluding the wordmark. Two rotated motifs sit behind the content at 7.5% and 4.5% opacity (lower on mobile). Decorative layers ignore pointer events and are clipped to the main content so they cannot create horizontal overflow. Plain background / Logo dots toggles the texture alone; the neutral headings, brighter blue accents, and accepted Services hero image remain. No source logo pixels were edited.

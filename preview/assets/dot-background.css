@@ -1,0 +1,36 @@
+/* Reuse the actual logo artwork. Background positioning crops out the wordmark
+   and isolates its dotted sphere without changing the original image. */
+main {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+}
+main::before,
+main::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  width: clamp(18rem, 32vw, 28rem);
+  aspect-ratio: 195 / 242;
+  background-image: url("gotham-logo.png");
+  background-repeat: no-repeat;
+  background-size: 256.4103% 206.6116%;
+  background-position: 45.2459% 42.6357%;
+  opacity: .075;
+}
+main::before {
+  top: 1rem;
+  right: -8rem;
+  transform: rotate(-24deg);
+}
+main::after {
+  top: 66rem;
+  left: -12rem;
+  transform: rotate(24deg);
+  opacity: .045;
+}
+@media (max-width: 760px) {
+  main::before { top: 1rem; right: -13rem; opacity: .055; }
+  main::after { top: 72rem; left: -14rem; opacity: .035; }
+}
