@@ -23,3 +23,7 @@ Branch `codex/ui-blue-image-preview` returns to the approved neutral typography 
 ## Logo dot background
 
 Branch `codex/ui-dot-background-preview` uses the actual logo image as an oversized, cropped CSS background, isolating the dotted sphere and excluding the wordmark. Two rotated motifs sit behind the content at 7.5% and 4.5% opacity (lower on mobile). Decorative layers ignore pointer events and are clipped to the main content so they cannot create horizontal overflow. Plain background / Logo dots toggles the texture alone; the neutral headings, brighter blue accents, and accepted Services hero image remain. No source logo pixels were edited.
+
+## Bright blue headings with approved dot accents
+
+Branch `codex/ui-blue-headings-dots-preview` preserves the accepted left-upper/right-lower dots and Services hero image. Only page, section, and service headings (H1–H3 and their heading spans) change to bright blue #0875dc. Neutral headings / Blue headings toggles only this heading color. Navigation, buttons, body text, and smaller accents retain their previous colors.

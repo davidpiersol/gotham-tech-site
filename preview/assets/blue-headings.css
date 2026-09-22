@@ -1,0 +1,5 @@
+/* Bright blue only on the same headings explored in red and lime. */
+:root { --heading-blue: #0875dc; }
+main h1, main h2, main h3, .vision-copy h2 span {
+  color: var(--heading-blue);
+}
