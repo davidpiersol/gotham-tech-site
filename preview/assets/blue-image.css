@@ -1,12 +1,12 @@
 /* Brighter blue accents, with the approved neutral type and backgrounds. */
 body[data-page] { --accent: #0068aa !important; }
-.page-intro .intro-grid {
+body[data-page="services"] .page-intro .intro-grid {
   grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
   align-items: start;
   gap: var(--s5);
 }
-.page-intro .intro-text { display: grid; gap: var(--s4); }
-.page-intro .intro-visual { display: block; margin: 0; }
+body[data-page="services"] .page-intro .intro-text { display: grid; gap: var(--s4); }
+body[data-page="services"] .page-intro .intro-visual { display: block; margin: 0; }
 .intro-visual img {
   display: block;
   width: 100%;
@@ -16,7 +16,7 @@ body[data-page] { --accent: #0068aa !important; }
   object-position: center;
 }
 @media (max-width: 900px) {
-  .page-intro .intro-grid { grid-template-columns: 1fr; gap: var(--s4); }
-  .page-intro .intro-text { gap: var(--s3); }
+  body[data-page="services"] .page-intro .intro-grid { grid-template-columns: 1fr; gap: var(--s4); }
+  body[data-page="services"] .page-intro .intro-text { gap: var(--s3); }
   .intro-visual img { aspect-ratio: 16 / 9; object-fit: contain; background: #e7e8e6; }
 }

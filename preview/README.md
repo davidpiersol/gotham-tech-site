@@ -8,7 +8,7 @@ Run from the repository root:
 python3 -m http.server 4173 --bind 127.0.0.1 --directory preview
 ```
 
-Open http://localhost:4173/services/ and use Before / Proposed to compare. The homepage is also available locally. Other navigation and inquiry links open the existing public site, preserving their destinations and service query parameters. The local preview does not submit forms.
+Open http://localhost:4173/services/ and use Neutral headings / Blue headings to compare. Home, Services, About, and Contact are available locally. Process and Privacy still open the public site. The local Contact page offers direct email and phone links; it does not submit a form.
 
 The existing logo, images, Roboto 400/500 fonts, base styles, and rendered page copy are preserved. Next.js runtime scripts were removed; mobile navigation is handled by a small local script. Category labels remain on service cards but are quieter; copy is preserved apart from the proposed service CTA labels. The visual system uses available weight 500 rather than synthesizing 600.
 
@@ -27,3 +27,7 @@ Branch `codex/ui-dot-background-preview` uses the actual logo image as an oversi
 ## Bright blue headings with approved dot accents
 
 Branch `codex/ui-blue-headings-dots-preview` preserves the accepted left-upper/right-lower dots and Services hero image. Only page, section, and service headings (H1–H3 and their heading spans) change to bright blue #075bb5. Neutral headings / Blue headings toggles only this heading color. Navigation, buttons, body text, and smaller accents retain their previous colors.
+
+## Business contact details and company wording
+
+All four local pages show info@thegotechs.com and (505) 289-0772 in the footer, linked with mailto: and tel:. Contact places these details beside the introduction on desktop and below it on mobile. Home and About refer to Gotham Tech Solutions instead of the owner’s name. About uses the existing public copy and image with the approved preview styling. Contact and About were checked at 320px without horizontal overflow; contact link destinations were verified. These changes remain isolated to the preview.
