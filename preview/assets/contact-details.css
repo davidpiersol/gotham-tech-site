@@ -94,3 +94,7 @@ body[data-page="contact"] .page-intro { padding-bottom: var(--section-space); }
 .contact-form-focus > .contact-left { grid-column: 1; grid-row: 1; }
 .contact-form-focus > .inquiry-panel { grid-column: 2; grid-row: 1 / span 2; }
 .contact-form-focus > .direct-contact { grid-column: 1; grid-row: 2; align-self: end; }
+
+.contact-left .contact-expect { margin-top: var(--s4); }
+.contact-left .contact-expect h2 { font-size: var(--font-service); margin-bottom: var(--s2); }
+.contact-left .contact-expect p { color: #30343a; }
