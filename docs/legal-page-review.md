@@ -1,3 +1,9 @@
+# Public legal copy — September 21, 2026
+
+Owner requested public-facing wording without draft or test language. Replaced both legal pages accordingly. Identity: Gotham Consultants, LLC, New Mexico, brand Gotham Tech Solutions. Production source located at /Users/davidpiersol/Documents/ChatGPT/GoTechs-production (davidpiersol/GoTechs); policies now reflect Netlify, Microsoft 365, Cloudflare Turnstile and Upstash. Owner confirmed image publication rights and monthly 12-month non-client email retention, and explicitly deferred Sentry. No telemetry added. Public copy is prepared, not deployed or legally certified. Final release review remains.
+
+## Historical drafting record
+
 # Legal page drafts
 
 Prepared September 21, 2026 for Gotham Consultants, LLC (New Mexico), using Gotham Tech Solutions as its public-facing brand. The user confirmed the entity name and state. No registered DBA status is assumed.

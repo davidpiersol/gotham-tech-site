@@ -98,3 +98,5 @@ body[data-page="contact"] .page-intro { padding-bottom: var(--section-space); }
 .contact-left .contact-expect { margin-top: var(--s4); }
 .contact-left .contact-expect h2 { font-size: var(--font-service); margin-bottom: var(--s2); }
 .contact-left .contact-expect p { color: #30343a; }
+
+.contact-left .contact-expect { display: block; }
