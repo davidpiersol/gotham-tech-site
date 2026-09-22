@@ -1,0 +1,14 @@
+/* Red emphasis over the saved neutral layout; no background or spacing changes. */
+:root { --emphasis-red: #b4232e; --emphasis-red-on-dark: #ff9299; }
+h1, h2, h3, .vision-copy h2 span, strong, b,
+.eyebrow, .hero .eyebrow, .group-label, .step-number,
+.service-disclosure small, .hero-caption,
+.button, .main-nav>a, .text-link, .service-card .text-link,
+.menu-toggle, .footer-top nav, .service-card .outcome {
+  color: var(--emphasis-red);
+}
+/* Keep emphasized text readable on the existing dark buttons and footer. */
+.button, .main-nav>.button, .hero-caption, .site-footer strong, .site-footer b,
+.footer-top nav { color: var(--emphasis-red-on-dark); }
+.button:hover { background: #222; border-color: #222; color: var(--emphasis-red-on-dark); }
+.text-link:hover { color: #8e1822; }

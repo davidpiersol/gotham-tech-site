@@ -15,3 +15,7 @@ The existing logo, images, Roboto 400/500 fonts, base styles, and rendered page 
 Production application integration still requires locating the source repository for the current deployment. Nothing here changes the live website.
 
 Verified in the local browser: both pages at 320, 390, 768, and 1440px without horizontal overflow or broken images; comparison toggle restores original typography and service CTA text; mobile navigation opens and closes with Escape. Browser console reported no errors.
+
+## Red type exploration
+
+Branch `codex/ui-red-type-preview` starts from the saved neutral `codex/ui-typography-preview`, without the rejected color palette. All site text styled at emphasis weights (500 and above), including headings, labels, navigation, CTA links, and closing statements, uses red. A lighter red maintains readability on existing dark buttons, footer, and image captions. Body text, backgrounds, spacing, and layout retain the neutral design. Neutral / Red text toggles only this layer.
