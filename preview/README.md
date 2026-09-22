@@ -26,4 +26,4 @@ Branch `codex/ui-dot-background-preview` uses the actual logo image as an oversi
 
 ## Bright blue headings with approved dot accents
 
-Branch `codex/ui-blue-headings-dots-preview` preserves the accepted left-upper/right-lower dots and Services hero image. Only page, section, and service headings (H1–H3 and their heading spans) change to bright blue #0875dc. Neutral headings / Blue headings toggles only this heading color. Navigation, buttons, body text, and smaller accents retain their previous colors.
+Branch `codex/ui-blue-headings-dots-preview` preserves the accepted left-upper/right-lower dots and Services hero image. Only page, section, and service headings (H1–H3 and their heading spans) change to bright blue #075bb5. Neutral headings / Blue headings toggles only this heading color. Navigation, buttons, body text, and smaller accents retain their previous colors.
