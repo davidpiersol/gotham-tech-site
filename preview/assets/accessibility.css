@@ -1,0 +1,25 @@
+/* Keep small labels legible over the decorative dot accents. */
+.eyebrow, .hero .eyebrow, .group-label, .step-number,
+.service-disclosure small {
+  font-size: var(--font-action);
+  line-height: 1.5;
+  color: #234660;
+}
+
+/* An opaque backing makes caption contrast independent of the photo crop. */
+.hero-caption {
+  font-size: var(--font-action);
+  line-height: 1.5;
+  letter-spacing: .06em;
+  color: #234660;
+  background: #ededf0;
+  text-shadow: none;
+  padding: 12px 16px;
+  gap: 12px 24px;
+  flex-wrap: wrap;
+}
+
+.site-footer a:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 5px;
+}
