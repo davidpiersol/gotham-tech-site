@@ -19,7 +19,7 @@ inquiryForm.addEventListener('submit', event => {
   const heading = document.createElement('h3');
   heading.textContent = 'Your inquiry preview';
   const notice = document.createElement('p');
-  notice.textContent = 'Nothing has been sent or saved. To contact Gotham Tech Solutions now, use the email or phone number above.';
+  notice.textContent = 'Nothing has been sent or saved. To contact Gotham Tech Solutions now, use the email or phone links on this page.';
   result.append(heading, notice);
   for (const [label, value] of [
     ['Name', inquiryForm.elements.namedItem('name').value],
