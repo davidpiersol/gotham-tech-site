@@ -21,16 +21,16 @@ main::after {
 }
 main::before {
   top: 1rem;
-  right: -8rem;
-  transform: rotate(-24deg);
+  left: -8rem;
+  transform: rotate(24deg);
 }
 main::after {
   top: 66rem;
-  left: -12rem;
-  transform: rotate(24deg);
+  right: -12rem;
+  transform: rotate(-24deg);
   opacity: .045;
 }
 @media (max-width: 760px) {
-  main::before { top: 1rem; right: -13rem; opacity: .055; }
-  main::after { top: 72rem; left: -14rem; opacity: .035; }
+  main::before { top: 1rem; left: -13rem; opacity: .055; }
+  main::after { top: 72rem; right: -14rem; opacity: .035; }
 }
