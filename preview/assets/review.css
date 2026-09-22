@@ -6,3 +6,5 @@
 .review-bar a { text-decoration:underline; text-underline-offset:4px; }
 .review-bar :focus-visible { outline:3px solid #7dceff; outline-offset:3px; }
 @media(max-width:600px) { .review-bar { flex-wrap:wrap; gap:8px; } .review-bar>span { width:100%; } }
+.intro-text { display: contents; }
+.intro-visual { display: none; }

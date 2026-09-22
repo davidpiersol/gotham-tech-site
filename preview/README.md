@@ -15,3 +15,7 @@ The existing logo, images, Roboto 400/500 fonts, base styles, and rendered page 
 Production application integration still requires locating the source repository for the current deployment. Nothing here changes the live website.
 
 Verified in the local browser: both pages at 320, 390, 768, and 1440px without horizontal overflow or broken images; comparison toggle restores original typography and service CTA text; mobile navigation opens and closes with Escape. Browser console reported no errors.
+
+## Brighter blue and hero image
+
+Branch `codex/ui-blue-image-preview` returns to the approved neutral typography design. The existing blue accent changes from #155d87 to #0068aa. The Services introduction pairs its copy with the site's existing abstract-device image on desktop; the image follows the copy on screens up to 900px. The decorative image has empty alt text. Original / Blue + image compares this variation with the approved neutral design. The original typography remains active in both modes. No red text or additional color palette remains.
