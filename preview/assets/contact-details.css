@@ -46,3 +46,21 @@ body[data-page="contact"] .page-intro { padding-bottom: var(--section-space); }
 @media (max-width: 760px) {
   .contact-hero-grid { grid-template-columns: minmax(0, 1fr); }
 }
+/* Keep the original inquiry experience alongside direct contact details. */
+.contact-layout { padding-bottom: var(--section-space); gap: var(--s5); }
+.contact-aside h2 { font-size: var(--font-section); }
+.contact-aside p, .inquiry-panel p { color: #30343a; }
+.inquiry-panel .field-hint, .inquiry-panel .privacy-note,
+.inquiry-panel label, .inquiry-panel label span,
+.contact-aside .quiet-note, .preview-notice p {
+  font-size: var(--font-action);
+  color: #30343a;
+}
+.inquiry-panel input, .inquiry-panel select, .inquiry-panel textarea {
+  font-size: var(--font-body);
+  color: #30343a;
+  min-height: 44px;
+}
+.inquiry-result { margin-top: var(--s4); padding: var(--s3); background: #ededf0; overflow-wrap: anywhere; }
+.inquiry-result p { white-space: pre-wrap; }
+.inquiry-panel .sample-button { min-height: 44px; }

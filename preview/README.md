@@ -8,7 +8,7 @@ Run from the repository root:
 python3 -m http.server 4173 --bind 127.0.0.1 --directory preview
 ```
 
-Open http://localhost:4173/services/ and use Neutral headings / Blue headings to compare. Home, Services, About, Contact, Our Process, and Privacy are all available locally. The local Contact page offers direct email and phone links; it does not submit a form.
+Open http://localhost:4173/services/ and use Neutral headings / Blue headings to compare. Home, Services, About, Contact, Our Process, and Privacy are all available locally. The local Contact page includes the inquiry demonstration alongside direct email and phone links. Previewing the form displays a local summary without sending or storing a message.
 
 The existing logo, images, Roboto 400/500 fonts, base styles, and rendered page copy are preserved. Next.js runtime scripts were removed; mobile navigation is handled by a small local script. Category labels remain on service cards but are quieter; copy is preserved apart from the proposed service CTA labels. The visual system uses available weight 500 rather than synthesizing 600.
 
@@ -34,4 +34,8 @@ All four local pages show info@thegotechs.com and (505) 289-0772 in the footer, 
 
 ## Shared design across all pages
 
-All six pages load the same approved typography, blue headings, sparse dot motifs, contrast adjustments, and contact footer. `assets/shared-pages.css` extends the type and spacing tokens to Process steps, FAQ rows, Privacy reading copy, and all page introductions. Process retains the public page copy and native FAQ disclosures. Privacy describes the current direct-contact preview instead of the unrelated demo form. Its text still requires review against the actual production setup before publication. All navigation now stays in the local preview. Verified all six pages at 320px and 1280px without horizontal overflow, footer contact links throughout, and the Process FAQ disclosure.
+All six pages load the same approved typography, blue headings, sparse dot motifs, contrast adjustments, and contact footer. `assets/shared-pages.css` extends the type and spacing tokens to Process steps, FAQ rows, Privacy reading copy, and all page introductions. Process retains the public page copy and native FAQ disclosures. Privacy describes the direct contact links and the restored local inquiry demonstration. Its text still requires review against the actual production setup before publication. All navigation now stays in the local preview. Verified all six pages at 320px and 1280px without horizontal overflow, footer contact links throughout, and the Process FAQ disclosure.
+
+## Inquiry form restored
+
+The original inquiry fields, sample-details action, and explanatory sidebar are retained alongside the email and phone details. The static preview supports required-field and email validation, service selection from the URL, and a safe text-only inquiry summary. It makes no delivery request and uses no persistent storage. Verified sample details, the preview summary, service preselection, and 320px layout. Message delivery remains unconnected in this static preview.
