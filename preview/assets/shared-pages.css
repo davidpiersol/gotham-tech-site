@@ -21,3 +21,5 @@
 @media (max-width: 760px) {
   .process-steps article { gap: var(--s2); padding-block: var(--s3); }
 }
+.legal-draft-note { padding: var(--s3); margin-bottom: var(--s4); border-left: 4px solid #075bb5; background: #e1e2e5; }
+.footer-bottom > div { display: flex; flex-wrap: wrap; gap: 12px 24px; }

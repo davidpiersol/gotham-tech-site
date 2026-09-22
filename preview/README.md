@@ -39,3 +39,7 @@ All six pages load the same approved typography, blue headings, sparse dot motif
 ## Inquiry form restored
 
 The original inquiry fields, sample-details action, and explanatory sidebar are retained alongside the email and phone details. The static preview supports required-field and email validation, service selection from the URL, and a safe text-only inquiry summary. It makes no delivery request and uses no persistent storage. Verified sample details, the preview summary, service preselection, and 320px layout. Message delivery remains unconnected in this static preview.
+
+## Legal drafts
+
+Privacy Policy and Terms of Use drafts identify Gotham Consultants, LLC (New Mexico) as the operator under the Gotham Tech Solutions brand. Both are linked in all seven footers. They are review drafts, not yet effective; production practices and legal review remain outstanding. See `../docs/legal-page-review.md`.
