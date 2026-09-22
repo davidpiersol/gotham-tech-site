@@ -15,3 +15,7 @@ The existing logo, images, Roboto 400/500 fonts, base styles, and rendered page 
 Production application integration still requires locating the source repository for the current deployment. Nothing here changes the live website.
 
 Verified in the local browser: both pages at 320, 390, 768, and 1440px without horizontal overflow or broken images; comparison toggle restores original typography and service CTA text; mobile navigation opens and closes with Escape. Browser console reported no errors.
+
+## Color exploration
+
+Branch `codex/ui-color-preview` preserves the approved structure and typography from `codex/ui-typography-preview`. `assets/color.css` adds a warm off-white canvas, pale blue hero, cobalt actions, teal Digital Presence accents, terracotta Custom Applications accents, and navy callout/footer. Neutral / Color toggles only the color layer; typography, layout, copy, and CTA labels remain the same. The earlier typography branch remains available unchanged on GitHub.

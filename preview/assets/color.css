@@ -1,0 +1,50 @@
+/* Color exploration layered over the approved typography and layout.
+   Important overrides the captured page's inline theme variables only. */
+body[data-page] {
+  --background: #f8f7f3 !important;
+  --ink: #172d48 !important;
+  --accent: #2456b8 !important;
+  --muted: #526175 !important;
+  background: var(--background);
+  color: var(--ink);
+}
+.site-header { background: #f8f7f3; }
+.page-intro, .hero {
+  background: linear-gradient(115deg, #e9f1ff 0%, #edf5f4 70%, #f8f7f3 100%);
+  box-shadow: 0 0 0 100vmax #edf3f9;
+  clip-path: inset(0 -100vmax);
+}
+.intro-grid h1, .hero h1 { color: #193f79; }
+.eyebrow, .hero .eyebrow { color: #2456b8; }
+.button { background: #2456b8; border-color: #2456b8; }
+.button:hover { background: #193f79; border-color: #193f79; }
+.main-nav>a[aria-current=page], .main-nav>a:not(.button):hover { color: #2456b8; border-color: #2456b8; }
+.service-card { --service-color: #14645f; border-top-color: var(--service-color); }
+.service-card:nth-child(n+4) { --service-color: #8d482d; }
+.service-card h2, .service-card .step-number, .service-card .group-label,
+.service-card .text-link, .service-card li:before { color: var(--service-color); }
+.service-card li { border-bottom-color: #d8dedb; }
+.service-card .text-link:hover { color: #172d48; }
+.service-card .outcome { color: #172d48; }
+.service-groups>div:first-child { --accent: #14645f; }
+.service-groups>div:last-child { --accent: #8d482d; }
+.service-groups h3, .service-groups .group-label, .service-groups .text-link { color: var(--accent); }
+.service-list, .service-disclosure, .steps-strip article { border-color: #bdccd4; }
+.vision-section { background: #e6efec; }
+.step-number { color: #2456b8; }
+.contact-callout {
+  background: #193f79;
+  box-shadow: 0 0 0 100vmax #193f79;
+  clip-path: inset(0 -100vmax);
+  border-color: #193f79;
+  color: #fff;
+}
+.contact-callout .eyebrow { color: #b9d5ff; }
+.contact-callout p { color: #e0e9f7; }
+.contact-callout .button { background: #d8eee5; border-color: #d8eee5; color: #172d48; }
+.contact-callout .button:hover { background: #fff; border-color: #fff; }
+.contact-callout a:focus-visible { outline-color: #b9d5ff; }
+.site-footer { background: #12243c; }
+.footer-top p, .footer-bottom, .preview-label { color: #c2cddd; }
+.footer-bottom { border-color: #44566e; }
+.menu-toggle { border-color: #7b8ba1; color: #172d48; }
