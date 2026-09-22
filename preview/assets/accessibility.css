@@ -1,3 +1,7 @@
+.intro-copy p {
+  color: #30343a;
+}
+
 /* Keep small labels legible over the decorative dot accents. */
 .eyebrow, .hero .eyebrow, .group-label, .step-number,
 .service-disclosure small {
